@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BannerViewPager">
+        <attr name="autoPlay" format="boolean"/>
+        <attr name="loopDuration" format="integer"/>
+        <attr name="loopPlay" format="boolean"/>
+        <attr name="scrollSpeed" format="float"/>
+        <attr name="android:orientation"/>
+    </declare-styleable>
+
+    <declare-styleable name="BannerPagerIndicator">
+        <attr name="indicatorWidth" format="dimension|float"/>
+        <attr name="indicatorHeight" format="dimension|float"/>
+        <attr name="indicatorRadius" format="dimension|float"/>
+        <attr name="indicatorNormalColor" format="color"/>
+        <attr name="indicatorSelectColor" format="color"/>
+        <attr name="indicatorSpacing" format="dimension|float"/>
+    </declare-styleable>
+
+
+</resources>
